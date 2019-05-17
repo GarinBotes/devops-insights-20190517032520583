@@ -82,20 +82,20 @@
     it('with valid zip code', function() {
       reqMock = {
         query: {
-          zip: 79968
+          zip: 3210
         }
       };
 
       var body = {
         cod: 200,
-        name: 'El Paso',
+        name: 'Hamilton',
         weather: [
           {
-            main: 'cold'
+            main: 'clear'
           }
         ],
         main: {
-          temp: 78
+          temp: 14
         }
       };
 
