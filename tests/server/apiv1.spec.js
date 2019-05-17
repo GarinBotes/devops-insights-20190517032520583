@@ -44,7 +44,7 @@
     it('with valid zip code and error from request call', function() {
       reqMock = {
         query: {
-          zip: 3210
+          zip: 79968
         }
       };
 
@@ -63,7 +63,7 @@
     it('with incomplete zip code', function() {
       reqMock = {
         query: {
-          zip: 3210
+          zip: 79968
         }
       };
 
@@ -82,7 +82,7 @@
     it('with valid zip code', function() {
       reqMock = {
         query: {
-          zip: 3210
+          zip: 79968
         }
       };
 
@@ -131,7 +131,7 @@
     it('with valid zip code and error from request call', function() {
       reqMock = {
         query: {
-          zip: 3210
+          zip: 79968
         }
       };
 
@@ -150,7 +150,7 @@
     it('with incomplete zip code', function() {
       reqMock = {
         query: {
-          zip: 3210
+          zip: 79968
         }
       };
 
@@ -169,7 +169,7 @@
     it('with valid zip code', function() {
       reqMock = {
         query: {
-          zip: 3210
+          zip: 79968
         }
       };
 
